@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    /* background-image: url("jjj.png"), linear-gradient(hsl(0, 100%, 74%), rgba(255, 255, 255, 0.774)); */
+    font-size: 16px;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    width: 50%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    /* float: left; */
+    align-items: center;
+
+}
+
+main {
+    width: 80%;
+    margin: 100px;
+    /* text-align: center; */
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: green;
+    }
+
+
+    .container {
+        width: 100%;
+    }
+
+    .flex {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    body {
+        background-color: blue;
+    }
+
+    main {
+        width: 80%;
+        margin: 10px;
+        /* text-align: center; */
+
+    }
+
+    .container {
+        display: block;
+    }
+
+    .flex {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    body {
+        background-color: violet;
+    }
+}
+
+@media screen and (max-width:100px) {
+    body {
+        background-color: purple;
+    }
+}
+
+
+
+
+form {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    align-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    padding-left: 30px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid hsl(246, 25%, 77%);
+
+}
+
+.top {
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.cc {
+    margin-top: 20px;
+    color: black;
+    font-size: 10px;
+}
+
+button {
+    width: 85%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+}
+
+h1 {
+    font-size: 60px;
+    /* font-kerning: -20px; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-bottom: 30px;
+
+}

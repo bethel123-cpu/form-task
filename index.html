@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:600px)" href="style.css "> -->
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="flex">
+                <h1>Learn to code by watching others</h1>
+                <p>
+                    See how experienced developers solve problems in real-time.
+                    watching scripted tutorials is great, but understanding how developers think is invaluable.
+                </p>
+            </div>
+
+            <div class="flex">
+                <div class="top">
+                    <p> <strong>Try it free for 7 days</strong> then $20/mo. thereafter</p>
+                </div>
+                <form action="">
+                    <div>
+                        <input placeholder="Firstname" type="text" required data-error="Enter Your Firstname">
+                    </div>
+                    <div>
+                        <input placeholder="Lastname" type="text" required data-error="Enter Your Firstname">
+                    </div>
+                    <div>
+                        <input placeholder="Email" type="email" required data-error="Enter Your Firstname">
+                    </div>
+                    <div>
+                        <input placeholder="Password" minlength="5" type="text" required data-error="Enter a Password">
+                    </div>
+                    <div>
+                        <button class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+                        <p class="cc">By clicking this button you are agreeing to our <span
+                                style="color: hsl(0, 100%, 74%);"><strong> Terms and Services</strong></span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
